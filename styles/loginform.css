@@ -51,5 +51,6 @@ Promjena stila za span i odustani button */
     .cancelbtn {width: 100%;}
 }
 
-    
-}
+  button:hover {
+    opacity: 0.8%;
+  }  
