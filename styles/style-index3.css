@@ -1,0 +1,17 @@
+*{
+    font-family:  Arial, Helvetica, sans-serif;
+    margin: 0px;}
+
+p{
+    margin: 5px;}
+
+.treća {
+    color: green;}
+
+.prva{
+ font-family: 'Courier New', Courier, monospace;
+ color: blue;}
+
+.druga{ color: red;}
+
+#tri { color: pink;}
