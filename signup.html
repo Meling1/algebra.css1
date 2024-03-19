@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma za prijavu</title>
+    <link rel="stylesheet" href="./styles/signup.css">
+</head>
+<body>
+    <form style="border: 1px solid #ccc;">
+        <div class="container">
+            <h1>Forma za prijavu</h1>
+            <p>Molim unesite podatke u formu za kreiranje novog računa.</p>
+            <hr>
+        <label for="email"><b>Email</b></label>
+        <input name="email" type="email" placeholder="Unesite Email">
+
+        <label for="lozinka"><b>Lozinka</b></label>
+        <input name="lozinka" type="password" required>
+
+        <label for="pon"><b>Ponovite lozinku</b></label>
+        <input name="pon" type="password">
+
+        <label>
+        <input name="zap" type="checkbox" checked style="margin-bottom: 15px;">Zapamti me</label>
+
+        <p>Prilikom kreiranja računa pristajete na naše <a href="#" style="color: dodgerblue;">Uvjete korištenja</a></p>
+    </div>
+
+    <div class="clearfix">
+        <button class="cancelbtn" type="button">Odustani</button>
+        <button class="signupbtn" type="submit">Prijava</button>
+    </div>
+    
+</body>
+</html>
